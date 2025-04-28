@@ -1,4 +1,6 @@
 # Exercise 8: Organized Agents
+Command for PDF
+pandoc WAS_Simon_Dudler_Exercise7.md -o WAS_Simon_Dudler_Exercise7.pdf --pdf-engine=xelatex -V geometry:margin=0.75in
 
 This repository contains a partial implementation of a [JaCaMo](https://jacamo-lang.github.io/) application where a BDI agents coordinate with each other to achieve common goals within an organization.
 
